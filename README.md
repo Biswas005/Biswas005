@@ -1,33 +1,53 @@
 # <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" /> Hey there! I'm Amardeep Biswas
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Data+Science+Enthusiast;Machine+Learning+Explorer;IoT+Developer;Always+Learning+New+Things!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Systems+Programmer;Rust+%7C+C+%7C+Python+Developer;Performance+Enthusiast;Building+Fast+%26+Reliable+Software!" alt="Typing SVG" />
 </div>
 
 ---
 
 ## 🚀 About Me
 
-```python
-class AmardeepBiswas:
-    def __init__(self):
-        self.name = "Amardeep Biswas"
-        self.role = "Data Science Enthusiast"
-        self.location = "India"
-        self.interests = [
-            "Data Science", 
-            "Machine Learning", 
-            "Internet of Things (IoT)", 
-            "NVIDIA TAO"
-        ]
-        self.currently_learning = "Data Science"
-        self.goals = "Building intelligent solutions with data"
-    
-    def say_hi(self):
-        print("Thanks for dropping by! Let's connect and build something amazing together!")
+```rust
+struct AmardeepBiswas {
+    name: String,
+    role: String,
+    location: String,
+    languages: Vec<String>,
+    interests: Vec<String>,
+    currently_learning: String,
+}
 
-me = AmardeepBiswas()
-me.say_hi()
+impl AmardeepBiswas {
+    fn new() -> Self {
+        Self {
+            name: "Amardeep Biswas".to_string(),
+            role: "Systems Developer & Programmer".to_string(),
+            location: "India".to_string(),
+            languages: vec![
+                "Rust".to_string(), 
+                "C".to_string(), 
+                "Python".to_string()
+            ],
+            interests: vec![
+                "Systems Programming".to_string(),
+                "Performance Optimization".to_string(),
+                "Low-level Development".to_string(),
+                "Open Source".to_string()
+            ],
+            currently_learning: "Advanced Rust & Systems Design".to_string(),
+        }
+    }
+    
+    fn say_hi(&self) {
+        println!("Thanks for dropping by! Let's build fast and reliable software together! 🚀");
+    }
+}
+
+fn main() {
+    let me = AmardeepBiswas::new();
+    me.say_hi();
+}
 ```
 
 ---
@@ -36,24 +56,23 @@ me.say_hi()
 
 <div align="center">
 
-### 📊 Data Science & ML
+### 🔧 Core Languages
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-### 🌐 IoT & Hardware
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-
-### 💻 Development
+### 🛠️ Systems & Tools
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Vim](https://img.shields.io/badge/VIM-019733?style=for-the-badge&logo=vim&logoColor=white)
+
+### 🚀 Areas of Interest
+![Systems Programming](https://img.shields.io/badge/Systems-Programming-FF6B6B?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Performance-Optimization-4ECDC4?style=for-the-badge)
+![Memory Safety](https://img.shields.io/badge/Memory-Safety-FFE66D?style=for-the-badge)
+![Concurrency](https://img.shields.io/badge/Concurrency-FF8B94?style=for-the-badge)
 
 </div>
 
@@ -82,23 +101,23 @@ me.say_hi()
 
 ```mermaid
 mindmap
-  root((Amardeep's Journey))
-    Data Science
-      Machine Learning
-      Deep Learning
-      Statistical Analysis
-    IoT Projects
-      Sensor Integration
-      Real-time Data
-      Edge Computing
-    NVIDIA TAO
-      Model Training
-      Computer Vision
-      AI Deployment
-    Learning
-      New Algorithms
-      Industry Trends
-      Best Practices
+  root((Amardeep's Focus))
+    Systems Programming
+      Memory Management
+      Performance Tuning
+      Concurrency
+    Rust Development
+      Safe Systems Code
+      Web Assembly
+      CLI Tools
+    C Programming
+      Low-level Optimization
+      Embedded Systems
+      Kernel Development
+    Python Projects
+      Automation Scripts
+      Backend Development
+      Integration Tools
 ```
 
 </div>
@@ -107,11 +126,12 @@ mindmap
 
 ## 🌟 What I'm Up To
 
-- 🔬 **Exploring** advanced machine learning algorithms and their real-world applications
-- 🤖 **Building** IoT solutions that bridge the physical and digital worlds
-- 📚 **Learning** cutting-edge techniques in data science and AI
-- 🚀 **Experimenting** with NVIDIA TAO for computer vision projects
-- 💡 **Contributing** to open-source projects in the data science community
+- 🦀 **Crafting** high-performance applications in Rust with memory safety
+- ⚡ **Optimizing** system-level code in C for maximum efficiency
+- 🐍 **Building** automation tools and backend services with Python
+- 🔧 **Exploring** systems programming concepts and low-level optimization
+- 🚀 **Contributing** to open-source projects in systems programming
+- 💡 **Learning** advanced concurrency patterns and performance techniques
 
 ---
 
@@ -119,11 +139,11 @@ mindmap
 
 <!--START_SECTION:waka-->
 ```text
-Python       12 hrs 30 mins  ████████████░░░░░░░░░  65.2%
-Jupyter      4 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  22.1%
-Markdown     1 hr 45 mins    ██░░░░░░░░░░░░░░░░░░░   9.1%
-YAML         40 mins         █░░░░░░░░░░░░░░░░░░░░   3.5%
-Other        5 mins          ░░░░░░░░░░░░░░░░░░░░░   0.1%
+Rust         8 hrs 45 mins   ████████████░░░░░░░░░  45.2%
+C            6 hrs 30 mins   ████████░░░░░░░░░░░░░  33.5%
+Python       3 hrs 15 mins   ████░░░░░░░░░░░░░░░░░  16.8%
+Shell        45 mins         █░░░░░░░░░░░░░░░░░░░░   3.9%
+Other        10 mins         ░░░░░░░░░░░░░░░░░░░░░   0.6%
 ```
 <!--END_SECTION:waka-->
 
