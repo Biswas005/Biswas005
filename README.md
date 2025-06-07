@@ -279,7 +279,7 @@ total_focus: "Rust-first development with systems programming"
 ## 🦀 Contribution Graph
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Biswas005&bg_color=0d1117&color=f97316&line=f97316&point=ff6b6b&area=true&hide_border=true&custom_title=Coding%20Activity%20-%20Building%20Fast%20%26%20Safe%20Code" alt="Contribution Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Biswas005&bg_color=0d1117&color=f97316&line=f97316&point=ff6b6b&area=true&hide_border=true&custom_title=Coding%20Activity%20Building%20Fast%20Safe%20Code" alt="Contribution Graph"/>
 </div>
 
 ---
